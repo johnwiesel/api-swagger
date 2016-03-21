@@ -2860,10 +2860,18 @@ section.content{ padding-top:63px;}
     margin: 0;
     box-shadow: none !important;
     transform: rotate(-90deg);
-    background: #184F71 url('../images/navbar.png') no-repeat center center;
-    content: 'NAV';
-    background-size: 95%;
+    background: #184F71 url('../images/navbar.png') no-repeat right 4px center;
+    background-size: auto 73%;
     }
+	.swagger-section .mobile-nav:before {
+    content: 'NAV';
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    position: absolute;
+    left: 5px;
+    top: 1px;
+}
     .swagger-section .mobile-nav span { display: none;}
 	.swagger-section .mobile-nav:after{ display:none;}
 	.head .logo{ margin-left:20px;}
